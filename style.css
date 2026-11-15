@@ -1,0 +1,24 @@
+:root {
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--slate-300);
+}
+
+.qr-card {
+  max-width: 320px;
+  border-radius: 20px;
+}
+
+.card-title {
+  color: var(--slate-900);
+}
+
+.card-text {
+  color: var(--slate-500);
+  font-size: 15px;
+}
